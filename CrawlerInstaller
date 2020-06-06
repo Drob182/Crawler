@@ -1,0 +1,3 @@
+#!/bin/bash
+apt-get install tor torsocks wget
+gcc -o generator generatorV1.c 
