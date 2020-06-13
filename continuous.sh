@@ -1,4 +1,5 @@
 #!/bin/bash
 while true; do 
-	./crawler.sh
+	address=$(./generatortest)
+	./crawler.sh $address
 done
